@@ -1,0 +1,61 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sun Apr 09 13:06:23 2017
+# Process ID: 12676
+# Current directory: C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.runs/hdmi_auto_rs_w_1_synth_1
+# Command line: vivado.exe -log hdmi_auto_rs_w_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source hdmi_auto_rs_w_1.tcl
+# Log file: C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.runs/hdmi_auto_rs_w_1_synth_1/hdmi_auto_rs_w_1.vds
+# Journal file: C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.runs/hdmi_auto_rs_w_1_synth_1\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'C:/Xilinx/Vivado/2016.4/scripts/init.tcl'
+209 Beta devices matching pattern found, 24 enabled.
+source hdmi_auto_rs_w_1.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 354.371 ; gain = 144.926
+INFO: [Synth 8-638] synthesizing module 'hdmi_auto_rs_w_1' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ip/hdmi_auto_rs_w_1/synth/hdmi_auto_rs_w_1.v:58]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_11_axi_register_slice' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' (1#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice' (2#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice__parameterized0' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice__parameterized0' (2#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice__parameterized1' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice__parameterized1' (2#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice__parameterized2' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice__parameterized2' (2#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' (3#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_11_axi_register_slice' (4#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-256] done synthesizing module 'hdmi_auto_rs_w_1' (5#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ip/hdmi_auto_rs_w_1/synth/hdmi_auto_rs_w_1.v:58]
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:23 . Memory (MB): peak = 390.949 ; gain = 181.504
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:23 . Memory (MB): peak = 390.949 ; gain = 181.504
+INFO: [Device 21-403] Loading part xc7a200tsbg484-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.066 . Memory (MB): peak = 732.965 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:25 ; elapsed = 00:00:37 . Memory (MB): peak = 732.965 ; gain = 523.520
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:25 ; elapsed = 00:00:37 . Memory (MB): peak = 732.965 ; gain = 523.520
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:37 . Memory (MB): peak = 732.965 ; gain = 523.520
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:25 ; elapsed = 00:00:37 . Memory (MB): peak = 732.965 ; gain = 523.520
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:38 . Memory (MB): peak = 732.965 ; gain = 523.520
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:38 ; elapsed = 00:00:50 . Memory (MB): peak = 732.965 ; gain = 523.520
+Finished Timing Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:51 . Memory (MB): peak = 732.965 ; gain = 523.520
+Finished Technology Mapping : Time (s): cpu = 00:00:39 ; elapsed = 00:00:51 . Memory (MB): peak = 732.965 ; gain = 523.520
+Finished IO Insertion : Time (s): cpu = 00:00:40 ; elapsed = 00:00:52 . Memory (MB): peak = 732.965 ; gain = 523.520
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:40 ; elapsed = 00:00:52 . Memory (MB): peak = 732.965 ; gain = 523.520
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:40 ; elapsed = 00:00:52 . Memory (MB): peak = 732.965 ; gain = 523.520
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:40 ; elapsed = 00:00:52 . Memory (MB): peak = 732.965 ; gain = 523.520
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:40 ; elapsed = 00:00:52 . Memory (MB): peak = 732.965 ; gain = 523.520
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:40 ; elapsed = 00:00:52 . Memory (MB): peak = 732.965 ; gain = 523.520
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |     2|
+|2     |LUT3 |   260|
+|3     |LUT5 |     2|
+|4     |FDRE |   524|
++------+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:40 ; elapsed = 00:00:52 . Memory (MB): peak = 732.965 ; gain = 523.520
+synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 732.965 ; gain = 456.391

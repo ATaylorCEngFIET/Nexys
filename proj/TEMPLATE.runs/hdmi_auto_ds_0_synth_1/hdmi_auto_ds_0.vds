@@ -1,0 +1,98 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sun Apr 09 13:07:23 2017
+# Process ID: 17332
+# Current directory: C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.runs/hdmi_auto_ds_0_synth_1
+# Command line: vivado.exe -log hdmi_auto_ds_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source hdmi_auto_ds_0.tcl
+# Log file: C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.runs/hdmi_auto_ds_0_synth_1/hdmi_auto_ds_0.vds
+# Journal file: C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.runs/hdmi_auto_ds_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'C:/Xilinx/Vivado/2016.4/scripts/init.tcl'
+209 Beta devices matching pattern found, 24 enabled.
+source hdmi_auto_ds_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:24 . Memory (MB): peak = 361.984 ; gain = 152.438
+INFO: [Synth 8-638] synthesizing module 'hdmi_auto_ds_0' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ip/hdmi_auto_ds_0/synth/hdmi_auto_ds_0.v:58]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_11_top' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:14452]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_11_axi_downsizer' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:2380]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_11_b_downsizer' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:1251]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_11_b_downsizer' (1#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:1251]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_11_a_downsizer' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:64]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_10_axic_fifo' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_10_fifo_gen' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_10_fifo_gen' (20#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_10_axic_fifo' (21#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_10_axic_fifo__parameterized0' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_10_fifo_gen__parameterized0' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_10_fifo_gen__parameterized0' (21#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_10_axic_fifo__parameterized0' (21#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_11_a_downsizer' (22#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:64]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_11_w_downsizer' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:2016]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_11_w_downsizer' (23#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:2016]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_11_a_downsizer__parameterized0' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:64]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_10_axic_fifo__parameterized1' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_10_fifo_gen__parameterized1' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_10_fifo_gen__parameterized1' (23#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_10_axic_fifo__parameterized1' (23#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/39ba/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_11_a_downsizer__parameterized0' (23#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:64]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_11_r_downsizer' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:1533]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_11_r_downsizer' (24#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:1533]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_11_axi_downsizer' (25#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:2380]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_11_top' (26#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:14452]
+INFO: [Synth 8-256] done synthesizing module 'hdmi_auto_ds_0' (27#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ip/hdmi_auto_ds_0/synth/hdmi_auto_ds_0.v:58]
+Finished RTL Elaboration : Time (s): cpu = 00:01:51 ; elapsed = 00:02:04 . Memory (MB): peak = 488.703 ; gain = 279.156
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:51 ; elapsed = 00:02:04 . Memory (MB): peak = 488.703 ; gain = 279.156
+INFO: [Device 21-403] Loading part xc7a200tsbg484-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.162 . Memory (MB): peak = 753.602 ; gain = 0.105
+Finished Constraint Validation : Time (s): cpu = 00:02:05 ; elapsed = 00:02:20 . Memory (MB): peak = 753.602 ; gain = 544.055
+Finished Loading Part and Timing Information : Time (s): cpu = 00:02:05 ; elapsed = 00:02:20 . Memory (MB): peak = 753.602 ; gain = 544.055
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:06 ; elapsed = 00:02:20 . Memory (MB): peak = 753.602 ; gain = 544.055
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:02:07 ; elapsed = 00:02:22 . Memory (MB): peak = 753.602 ; gain = 544.055
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:14 ; elapsed = 00:02:29 . Memory (MB): peak = 753.602 ; gain = 544.055
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++-----------------------+-------------------------------------------------------------------------------+----------------+----------------------+--------------+
+|Module Name            | RTL Object                                                                    | Inference      | Size (Depth x Width) | Primitives   | 
++-----------------------+-------------------------------------------------------------------------------+----------------+----------------------+--------------+
+|fifo_generator_v13_1_3 | inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm_gen.dm/RAM_reg | User Attribute | 32 x 9               | RAM32M x 2   | 
+|fifo_generator_v13_1_3 | inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm_gen.dm/RAM_reg | User Attribute | 32 x 32              | RAM32M x 6   | 
+|fifo_generator_v13_1_3 | inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm_gen.dm/RAM_reg | User Attribute | 32 x 32              | RAM32M x 6   | 
++-----------------------+-------------------------------------------------------------------------------+----------------+----------------------+--------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:27 ; elapsed = 00:02:42 . Memory (MB): peak = 753.602 ; gain = 544.055
+Finished Timing Optimization : Time (s): cpu = 00:02:33 ; elapsed = 00:02:48 . Memory (MB): peak = 813.961 ; gain = 604.414
+Finished Technology Mapping : Time (s): cpu = 00:02:34 ; elapsed = 00:02:50 . Memory (MB): peak = 813.961 ; gain = 604.414
+Finished IO Insertion : Time (s): cpu = 00:02:35 ; elapsed = 00:02:51 . Memory (MB): peak = 813.961 ; gain = 604.414
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:35 ; elapsed = 00:02:51 . Memory (MB): peak = 813.961 ; gain = 604.414
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:35 ; elapsed = 00:02:51 . Memory (MB): peak = 813.961 ; gain = 604.414
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:35 ; elapsed = 00:02:51 . Memory (MB): peak = 813.961 ; gain = 604.414
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:36 ; elapsed = 00:02:51 . Memory (MB): peak = 813.961 ; gain = 604.414
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:36 ; elapsed = 00:02:51 . Memory (MB): peak = 813.961 ; gain = 604.414
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    16|
+|2     |LUT1   |    22|
+|3     |LUT2   |    80|
+|4     |LUT3   |   224|
+|5     |LUT4   |   361|
+|6     |LUT5   |   128|
+|7     |LUT6   |   270|
+|8     |RAM32M |    14|
+|9     |FDCE   |    69|
+|10    |FDPE   |    63|
+|11    |FDRE   |   835|
+|12    |FDSE   |     5|
++------+-------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:36 ; elapsed = 00:02:51 . Memory (MB): peak = 813.961 ; gain = 604.414
+synth_design: Time (s): cpu = 00:02:32 ; elapsed = 00:02:39 . Memory (MB): peak = 816.430 ; gain = 539.699

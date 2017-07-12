@@ -1,0 +1,59 @@
+
+*** Running vivado
+    with args -log hdmi_v_vid_in_axi4s_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source hdmi_v_vid_in_axi4s_0_0.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+Sourcing tcl script 'C:/Xilinx/Vivado/2016.4/scripts/init.tcl'
+209 Beta devices matching pattern found, 24 enabled.
+source hdmi_v_vid_in_axi4s_0_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:26 . Memory (MB): peak = 352.656 ; gain = 142.578
+INFO: [Synth 8-638] synthesizing module 'hdmi_v_vid_in_axi4s_0_0' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ip/hdmi_v_vid_in_axi4s_0_0/synth/hdmi_v_vid_in_axi4s_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'v_vid_in_axi4s_v4_0_5' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/3c71/hdl/v_vid_in_axi4s_v4_0_vl_rfs.v:782]
+INFO: [Synth 8-638] synthesizing module 'v_vid_in_axi4s_v4_0_5_formatter' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/3c71/hdl/v_vid_in_axi4s_v4_0_vl_rfs.v:570]
+INFO: [Synth 8-256] done synthesizing module 'v_vid_in_axi4s_v4_0_5_formatter' (1#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/3c71/hdl/v_vid_in_axi4s_v4_0_vl_rfs.v:570]
+INFO: [Synth 8-638] synthesizing module 'v_vid_in_axi4s_v4_0_5_coupler' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/3c71/hdl/v_vid_in_axi4s_v4_0_vl_rfs.v:63]
+INFO: [Synth 8-256] done synthesizing module 'v_vid_in_axi4s_v4_0_5_coupler' (32#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/3c71/hdl/v_vid_in_axi4s_v4_0_vl_rfs.v:63]
+INFO: [Synth 8-256] done synthesizing module 'v_vid_in_axi4s_v4_0_5' (33#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/3c71/hdl/v_vid_in_axi4s_v4_0_vl_rfs.v:782]
+INFO: [Synth 8-256] done synthesizing module 'hdmi_v_vid_in_axi4s_0_0' (34#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ip/hdmi_v_vid_in_axi4s_0_0/synth/hdmi_v_vid_in_axi4s_0_0.v:57]
+Finished RTL Elaboration : Time (s): cpu = 00:01:10 ; elapsed = 00:01:25 . Memory (MB): peak = 564.285 ; gain = 354.207
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:10 ; elapsed = 00:01:25 . Memory (MB): peak = 564.285 ; gain = 354.207
+INFO: [Device 21-403] Loading part xc7a200tsbg484-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 719.996 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:01:24 ; elapsed = 00:01:39 . Memory (MB): peak = 719.996 ; gain = 509.918
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:24 ; elapsed = 00:01:39 . Memory (MB): peak = 719.996 ; gain = 509.918
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:24 ; elapsed = 00:01:40 . Memory (MB): peak = 719.996 ; gain = 509.918
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:25 ; elapsed = 00:01:41 . Memory (MB): peak = 719.996 ; gain = 509.918
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:26 ; elapsed = 00:01:42 . Memory (MB): peak = 719.996 ; gain = 509.918
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:38 ; elapsed = 00:01:55 . Memory (MB): peak = 719.996 ; gain = 509.918
+Finished Timing Optimization : Time (s): cpu = 00:01:39 ; elapsed = 00:01:55 . Memory (MB): peak = 719.996 ; gain = 509.918
+Finished Technology Mapping : Time (s): cpu = 00:01:39 ; elapsed = 00:01:55 . Memory (MB): peak = 719.996 ; gain = 509.918
+Finished IO Insertion : Time (s): cpu = 00:01:39 ; elapsed = 00:01:56 . Memory (MB): peak = 719.996 ; gain = 509.918
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:39 ; elapsed = 00:01:56 . Memory (MB): peak = 719.996 ; gain = 509.918
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:39 ; elapsed = 00:01:56 . Memory (MB): peak = 719.996 ; gain = 509.918
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:39 ; elapsed = 00:01:56 . Memory (MB): peak = 719.996 ; gain = 509.918
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:39 ; elapsed = 00:01:56 . Memory (MB): peak = 719.996 ; gain = 509.918
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:39 ; elapsed = 00:01:56 . Memory (MB): peak = 719.996 ; gain = 509.918
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |LUT1     |     2|
+|2     |LUT2     |    21|
+|3     |LUT3     |    10|
+|4     |LUT4     |    17|
+|5     |LUT5     |     8|
+|6     |LUT6     |     5|
+|7     |RAMB18E1 |     1|
+|8     |FDCE     |    65|
+|9     |FDPE     |    27|
+|10    |FDRE     |    94|
++------+---------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:39 ; elapsed = 00:01:56 . Memory (MB): peak = 719.996 ; gain = 509.918
+get_clocks: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1178.016 ; gain = 456.074
+synth_design: Time (s): cpu = 00:01:39 ; elapsed = 00:01:46 . Memory (MB): peak = 1178.051 ; gain = 902.223

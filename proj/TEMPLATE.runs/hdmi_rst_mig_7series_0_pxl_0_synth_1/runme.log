@@ -1,0 +1,64 @@
+
+*** Running vivado
+    with args -log hdmi_rst_mig_7series_0_pxl_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source hdmi_rst_mig_7series_0_pxl_0.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+Sourcing tcl script 'C:/Xilinx/Vivado/2016.4/scripts/init.tcl'
+209 Beta devices matching pattern found, 24 enabled.
+source hdmi_rst_mig_7series_0_pxl_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 352.164 ; gain = 142.277
+INFO: [Synth 8-638] synthesizing module 'hdmi_rst_mig_7series_0_pxl_0' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ip/hdmi_rst_mig_7series_0_pxl_0/synth/hdmi_rst_mig_7series_0_pxl_0.vhd:71]
+INFO: [Synth 8-638] synthesizing module 'proc_sys_reset' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/04b4/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+INFO: [Synth 8-638] synthesizing module 'lpf' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/04b4/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+INFO: [Synth 8-638] synthesizing module 'SRL16' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:43312]
+INFO: [Synth 8-256] done synthesizing module 'SRL16' (1#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:43312]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (2#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'lpf' (3#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/04b4/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+INFO: [Synth 8-638] synthesizing module 'sequence_psr' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/04b4/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
+INFO: [Synth 8-638] synthesizing module 'upcnt_n' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/04b4/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (4#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/04b4/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'sequence_psr' (5#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/04b4/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
+INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset' (6#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/04b4/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+INFO: [Synth 8-256] done synthesizing module 'hdmi_rst_mig_7series_0_pxl_0' (7#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ip/hdmi_rst_mig_7series_0_pxl_0/synth/hdmi_rst_mig_7series_0_pxl_0.vhd:71]
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:23 . Memory (MB): peak = 389.570 ; gain = 179.684
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:24 . Memory (MB): peak = 389.570 ; gain = 179.684
+INFO: [Device 21-403] Loading part xc7a200tsbg484-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.049 . Memory (MB): peak = 725.598 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:25 ; elapsed = 00:00:37 . Memory (MB): peak = 725.598 ; gain = 515.711
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:25 ; elapsed = 00:00:37 . Memory (MB): peak = 725.598 ; gain = 515.711
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:37 . Memory (MB): peak = 725.598 ; gain = 515.711
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:25 ; elapsed = 00:00:38 . Memory (MB): peak = 725.598 ; gain = 515.711
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:38 . Memory (MB): peak = 725.598 ; gain = 515.711
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:38 ; elapsed = 00:00:51 . Memory (MB): peak = 725.598 ; gain = 515.711
+Finished Timing Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:51 . Memory (MB): peak = 725.598 ; gain = 515.711
+Finished Technology Mapping : Time (s): cpu = 00:00:38 ; elapsed = 00:00:51 . Memory (MB): peak = 725.598 ; gain = 515.711
+Finished IO Insertion : Time (s): cpu = 00:00:39 ; elapsed = 00:00:52 . Memory (MB): peak = 725.598 ; gain = 515.711
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:39 ; elapsed = 00:00:52 . Memory (MB): peak = 725.598 ; gain = 515.711
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:39 ; elapsed = 00:00:52 . Memory (MB): peak = 725.598 ; gain = 515.711
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:39 ; elapsed = 00:00:52 . Memory (MB): peak = 725.598 ; gain = 515.711
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:39 ; elapsed = 00:00:52 . Memory (MB): peak = 725.598 ; gain = 515.711
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:39 ; elapsed = 00:00:52 . Memory (MB): peak = 725.598 ; gain = 515.711
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT1  |     5|
+|2     |LUT2  |     9|
+|3     |LUT3  |     1|
+|4     |LUT4  |     6|
+|5     |LUT5  |     3|
+|6     |LUT6  |     1|
+|7     |SRL16 |     1|
+|8     |FDR   |     8|
+|9     |FDRE  |    28|
+|10    |FDSE  |     4|
++------+------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:39 ; elapsed = 00:00:52 . Memory (MB): peak = 725.598 ; gain = 515.711
+synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 725.598 ; gain = 448.238

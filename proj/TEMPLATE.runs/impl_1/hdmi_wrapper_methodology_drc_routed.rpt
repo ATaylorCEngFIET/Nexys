@@ -1,0 +1,268 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (win64) Build 1756540 Mon Jan 23 19:11:23 MST 2017
+| Date         : Sun Apr 09 14:52:13 2017
+| Host         : DESKTOP-HQKVQ13 running 64-bit major release  (build 9200)
+| Command      : report_methodology -file hdmi_wrapper_methodology_drc_routed.rpt -rpx hdmi_wrapper_methodology_drc_routed.rpx
+| Design       : hdmi_wrapper
+| Device       : xc7a200tsbg484-1
+| Speed File   : -1
+| Design State : Routed
+-------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 43
++-----------+----------+--------------------------------------------------------+------------+
+| Rule      | Severity | Description                                            | Violations |
++-----------+----------+--------------------------------------------------------+------------+
+| PDRC-190  | Warning  | Suboptimally placed synchronized register chain        | 14         |
+| TIMING-6  | Warning  | No common primary clock between related clocks         | 1          |
+| TIMING-7  | Warning  | No common node between related clocks                  | 1          |
+| TIMING-9  | Warning  | Unknown CDC Logic                                      | 1          |
+| TIMING-10 | Warning  | Missing property on synchronizer                       | 1          |
+| TIMING-18 | Warning  | Missing input or output delay                          | 21         |
+| XDCB-1    | Warning  | Runtime intensive exceptions                           | 2          |
+| XDCC-1    | Warning  | Scoped Clock constraint overwritten with the same name | 1          |
+| XDCC-2    | Warning  | Scoped Non-Timing constraint/property overwritten      | 1          |
++-----------+----------+--------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+PDRC-190#1 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell hdmi_i/axi_vdma_0/U0/AXI_LITE_REG_INTERFACE_I/GEN_MM2S_LITE_CROSSINGS.GEN_MM2S_CROSSINGS_ASYNC.MM2S_INTRPT_CROSSING_I/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3 in site SLICE_X101Y146 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell hdmi_i/microblaze_0_axi_intc/U0/INTC_CORE_I/INTR_DETECT_GEN[1].ASYNC_GEN.intr_ff_reg[0] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#2 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell hdmi_i/axi_vdma_0/U0/AXI_LITE_REG_INTERFACE_I/GEN_S2MM_LITE_CROSSINGS.GEN_S2MM_CROSSINGS_ASYNC.S2MM_INTRPT_CROSSING_I/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3 in site SLICE_X99Y140 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell hdmi_i/microblaze_0_axi_intc/U0/INTC_CORE_I/INTR_DETECT_GEN[0].ASYNC_GEN.intr_ff_reg[0] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#3 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell hdmi_i/mig_7series_0/u_hdmi_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r5_reg[0] in site SLICE_X37Y188 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell hdmi_i/mig_7series_0/u_hdmi_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_r_reg[0] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#4 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell hdmi_i/mig_7series_0/u_hdmi_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r5_reg[10] in site SLICE_X39Y187 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell hdmi_i/mig_7series_0/u_hdmi_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_r_reg[10] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#5 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell hdmi_i/mig_7series_0/u_hdmi_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r5_reg[11] in site SLICE_X38Y188 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell hdmi_i/mig_7series_0/u_hdmi_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_r_reg[11] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#6 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell hdmi_i/mig_7series_0/u_hdmi_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r5_reg[1] in site SLICE_X39Y184 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell hdmi_i/mig_7series_0/u_hdmi_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_r_reg[1] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#7 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell hdmi_i/mig_7series_0/u_hdmi_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r5_reg[2] in site SLICE_X37Y185 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell hdmi_i/mig_7series_0/u_hdmi_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_r_reg[2] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#8 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell hdmi_i/mig_7series_0/u_hdmi_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r5_reg[3] in site SLICE_X40Y188 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell hdmi_i/mig_7series_0/u_hdmi_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_r_reg[3] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#9 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell hdmi_i/mig_7series_0/u_hdmi_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r5_reg[4] in site SLICE_X40Y184 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell hdmi_i/mig_7series_0/u_hdmi_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_r_reg[4] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#10 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell hdmi_i/mig_7series_0/u_hdmi_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r5_reg[5] in site SLICE_X39Y189 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell hdmi_i/mig_7series_0/u_hdmi_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_r_reg[5] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#11 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell hdmi_i/mig_7series_0/u_hdmi_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r5_reg[6] in site SLICE_X41Y186 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell hdmi_i/mig_7series_0/u_hdmi_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_r_reg[6] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#12 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell hdmi_i/mig_7series_0/u_hdmi_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r5_reg[7] in site SLICE_X38Y184 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell hdmi_i/mig_7series_0/u_hdmi_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_r_reg[7] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#13 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell hdmi_i/mig_7series_0/u_hdmi_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r5_reg[8] in site SLICE_X38Y186 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell hdmi_i/mig_7series_0/u_hdmi_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_r_reg[8] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#14 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell hdmi_i/mig_7series_0/u_hdmi_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r5_reg[9] in site SLICE_X40Y186 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell hdmi_i/mig_7series_0/u_hdmi_mig_7series_0_0_mig/temp_mon_enabled.u_tempmon/device_temp_r_reg[9] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+TIMING-6#1 Warning
+No common primary clock between related clocks  
+The clocks mmcm_clkout1 and dvi2rgb_0_PixelClk are related (timed together) but they have no common primary clock. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks mmcm_clkout1] -to [get_clocks dvi2rgb_0_PixelClk]
+Related violations: <none>
+
+TIMING-7#1 Warning
+No common node between related clocks  
+The clocks mmcm_clkout1 and dvi2rgb_0_PixelClk are related (timed together) but they have no common node. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks mmcm_clkout1] -to [get_clocks dvi2rgb_0_PixelClk]
+Related violations: <none>
+
+TIMING-9#1 Warning
+Unknown CDC Logic  
+One or more asynchronous Clock Domain Crossing has been detected between 2 clock domains through a set_false_path or a set_clock_groups or set_max_delay -datapath_only constraint but no double-registers logic synchronizer has been found on the side of the capture clock. It is recommended to run report_cdc for a complete and detailed CDC coverage
+Related violations: <none>
+
+TIMING-10#1 Warning
+Missing property on synchronizer  
+One or more logic synchronizer has been detected between 2 clock domains but the synchronizer does not have the property ASYNC_REG defined on one or both registers. It is recommended to run report_cdc for a complete and detailed CDC coverage
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on TMDS_IN_data_n[0] relative to clock(s) VIRTUAL_CLK_OUT_5x_hdmi_clk 
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on TMDS_IN_data_n[1] relative to clock(s) VIRTUAL_CLK_OUT_5x_hdmi_clk 
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on TMDS_IN_data_n[2] relative to clock(s) VIRTUAL_CLK_OUT_5x_hdmi_clk 
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An input delay is missing on TMDS_IN_data_p[0] relative to clock(s) VIRTUAL_CLK_OUT_5x_hdmi_clk 
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An input delay is missing on TMDS_IN_data_p[1] relative to clock(s) VIRTUAL_CLK_OUT_5x_hdmi_clk 
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An input delay is missing on TMDS_IN_data_p[2] relative to clock(s) VIRTUAL_CLK_OUT_5x_hdmi_clk 
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An input delay is missing on ddc_scl_io relative to clock(s) VIRTUAL_mmcm_clkout1 
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An input delay is missing on ddc_sda_io relative to clock(s) VIRTUAL_mmcm_clkout1 
+Related violations: <none>
+
+TIMING-18#9 Warning
+Missing input or output delay  
+An input delay is missing on reset relative to clock(s) VIRTUAL_dvi2rgb_0_PixelClk VIRTUAL_mmcm_clkout1 sys_clk_i 
+Related violations: <none>
+
+TIMING-18#10 Warning
+Missing input or output delay  
+An input delay is missing on usb_uart_rxd relative to clock(s) sys_clk_i 
+Related violations: <none>
+
+TIMING-18#11 Warning
+Missing input or output delay  
+An output delay is missing on DDR3_reset_n relative to clock(s) sys_clk_i 
+Related violations: <none>
+
+TIMING-18#12 Warning
+Missing input or output delay  
+An output delay is missing on TMDS_OUT_clk_n relative to clock(s) VIRTUAL_mmcm_clk 
+Related violations: <none>
+
+TIMING-18#13 Warning
+Missing input or output delay  
+An output delay is missing on TMDS_OUT_clk_p relative to clock(s) VIRTUAL_mmcm_clk 
+Related violations: <none>
+
+TIMING-18#14 Warning
+Missing input or output delay  
+An output delay is missing on TMDS_OUT_data_n[0] relative to clock(s) VIRTUAL_mmcm_clk 
+Related violations: <none>
+
+TIMING-18#15 Warning
+Missing input or output delay  
+An output delay is missing on TMDS_OUT_data_n[1] relative to clock(s) VIRTUAL_mmcm_clk 
+Related violations: <none>
+
+TIMING-18#16 Warning
+Missing input or output delay  
+An output delay is missing on TMDS_OUT_data_n[2] relative to clock(s) VIRTUAL_mmcm_clk 
+Related violations: <none>
+
+TIMING-18#17 Warning
+Missing input or output delay  
+An output delay is missing on TMDS_OUT_data_p[0] relative to clock(s) VIRTUAL_mmcm_clk 
+Related violations: <none>
+
+TIMING-18#18 Warning
+Missing input or output delay  
+An output delay is missing on TMDS_OUT_data_p[1] relative to clock(s) VIRTUAL_mmcm_clk 
+Related violations: <none>
+
+TIMING-18#19 Warning
+Missing input or output delay  
+An output delay is missing on TMDS_OUT_data_p[2] relative to clock(s) VIRTUAL_mmcm_clk 
+Related violations: <none>
+
+TIMING-18#20 Warning
+Missing input or output delay  
+An output delay is missing on hdmi_hpd[0] relative to clock(s) sys_clk_i 
+Related violations: <none>
+
+TIMING-18#21 Warning
+Missing input or output delay  
+An output delay is missing on usb_uart_txd relative to clock(s) sys_clk_i 
+Related violations: <none>
+
+XDCB-1#1 Warning
+Runtime intensive exceptions  
+The following constraint contains more than 1000 objects. To preserve runtime and memory performance, it is recommended to include minimum number of objects. Check whether this list can be simplified.
+-to = expands to 1810 design objects. 
+set_max_delay -datapath_only -from [get_clocks -of [get_ports -scoped_to_current_instance s_axi_aclk]] -to [all_registers -clock [get_clocks -of [get_...
+c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ip/hdmi_v_tc_0_0/hdmi_v_tc_0_0_clocks.xdc (Line: 6)
+Related violations: <none>
+
+XDCB-1#2 Warning
+Runtime intensive exceptions  
+The following constraint contains more than 1000 objects. To preserve runtime and memory performance, it is recommended to include minimum number of objects. Check whether this list can be simplified.
+-to = expands to 1971 design objects. 
+set_max_delay -datapath_only -from [get_clocks -of [get_ports -scoped_to_current_instance s_axi_aclk]] -to [all_registers -clock [get_clocks -of [get_...
+c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ip/hdmi_v_tc_1_0/hdmi_v_tc_1_0_clocks.xdc (Line: 6)
+Related violations: <none>
+
+XDCC-1#1 Warning
+Scoped Clock constraint overwritten with the same name  
+A new clock constraint create_clock overrides a previous scoped clock constraint with the same name. It is not recommended to override a scoped (typically an IP) clock constraint and could result in unexpected behaviors.
+New: create_clock -period 10.000 -name sys_clk_i -waveform {0.000 5.000} -add [get_ports sys_clk_i] (Source: C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/constraints/NexysVideo_Master.xdc (Line: 9))
+Previous: create_clock -period 10.000 [get_ports sys_clk_i] (Source: c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ip/hdmi_mig_7series_0_0/hdmi_mig_7series_0_0/user_design/constraints/hdmi_mig_7series_0_0.xdc (Line: 26))
+Related violations: <none>
+
+XDCC-2#1 Warning
+Scoped Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on sys_clk_i overrides a previous scoped property. It is not recommended to override a scoped (typically an IP) property and could result in unexpected behaviours.
+New Source: C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/constraints/NexysVideo_Master.xdc (Line: 8)
+Previous Source: c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ip/hdmi_mig_7series_0_0/hdmi_mig_7series_0_0/user_design/constraints/hdmi_mig_7series_0_0.xdc (Line: 271)
+Related violations: <none>
+
+

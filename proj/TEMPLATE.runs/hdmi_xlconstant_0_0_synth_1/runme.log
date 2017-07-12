@@ -1,0 +1,44 @@
+
+*** Running vivado
+    with args -log hdmi_xlconstant_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source hdmi_xlconstant_0_0.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+Sourcing tcl script 'C:/Xilinx/Vivado/2016.4/scripts/init.tcl'
+209 Beta devices matching pattern found, 24 enabled.
+source hdmi_xlconstant_0_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:22 . Memory (MB): peak = 349.484 ; gain = 139.531
+INFO: [Synth 8-638] synthesizing module 'hdmi_xlconstant_0_0' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ip/hdmi_xlconstant_0_0/sim/hdmi_xlconstant_0_0.vhd:35]
+INFO: [Synth 8-638] synthesizing module 'xlconstant' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/e147/xlconstant.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'xlconstant' (1#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/e147/xlconstant.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'hdmi_xlconstant_0_0' (2#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ip/hdmi_xlconstant_0_0/sim/hdmi_xlconstant_0_0.vhd:35]
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:23 . Memory (MB): peak = 386.887 ; gain = 176.934
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:23 . Memory (MB): peak = 386.887 ; gain = 176.934
+INFO: [Device 21-403] Loading part xc7a200tsbg484-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 618.574 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:23 ; elapsed = 00:00:38 . Memory (MB): peak = 618.574 ; gain = 408.621
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:23 ; elapsed = 00:00:38 . Memory (MB): peak = 618.574 ; gain = 408.621
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:38 . Memory (MB): peak = 618.574 ; gain = 408.621
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:38 . Memory (MB): peak = 618.574 ; gain = 408.621
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:38 . Memory (MB): peak = 618.574 ; gain = 408.621
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:36 ; elapsed = 00:00:51 . Memory (MB): peak = 651.465 ; gain = 441.512
+Finished Timing Optimization : Time (s): cpu = 00:00:36 ; elapsed = 00:00:51 . Memory (MB): peak = 651.465 ; gain = 441.512
+Finished Technology Mapping : Time (s): cpu = 00:00:36 ; elapsed = 00:00:51 . Memory (MB): peak = 661.168 ; gain = 451.215
+Finished IO Insertion : Time (s): cpu = 00:00:37 ; elapsed = 00:00:52 . Memory (MB): peak = 661.168 ; gain = 451.215
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:37 ; elapsed = 00:00:52 . Memory (MB): peak = 661.168 ; gain = 451.215
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:37 ; elapsed = 00:00:52 . Memory (MB): peak = 661.168 ; gain = 451.215
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:37 ; elapsed = 00:00:52 . Memory (MB): peak = 661.168 ; gain = 451.215
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:37 ; elapsed = 00:00:52 . Memory (MB): peak = 661.168 ; gain = 451.215
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:37 ; elapsed = 00:00:52 . Memory (MB): peak = 661.168 ; gain = 451.215
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:37 ; elapsed = 00:00:52 . Memory (MB): peak = 661.168 ; gain = 451.215
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 689.637 ; gain = 414.051

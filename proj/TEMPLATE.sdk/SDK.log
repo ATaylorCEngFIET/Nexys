@@ -1,0 +1,163 @@
+16:27:59 INFO  : Registering command handlers for SDK TCF services
+16:28:00 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\aptay\Downloads\Nexys-Video-HDMI-master\Nexys-Video-HDMI-master\proj\TEMPLATE.sdk\temp_xsdb_launch_script.tcl
+16:28:04 INFO  : XSCT server has started successfully.
+16:28:04 INFO  : Successfully done setting XSCT server connection channel  
+16:28:08 INFO  : Successfully done setting SDK workspace  
+16:28:30 INFO  : Registering command handlers for SDK TCF services
+16:28:30 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\aptay\Downloads\Nexys-Video-HDMI-master\Nexys-Video-HDMI-master\proj\TEMPLATE.sdk\temp_xsdb_launch_script.tcl
+16:28:33 INFO  : XSCT server has started successfully.
+16:28:33 INFO  : Successfully done setting XSCT server connection channel  
+16:28:34 INFO  : Successfully done setting SDK workspace  
+16:30:24 INFO  : Project 'nexys_hw' created. You can now create BSPs and application projects targeting this hardware platform.
+16:37:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:37:12 INFO  : Jtag cable 'Digilent Nexys Video 210276689899B' is selected.
+16:37:12 INFO  : 'jtag frequency' command is executed.
+16:37:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689899B" && level==0} -index 0' command is executed.
+16:37:18 INFO  : FPGA configured successfully with bitstream "C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.sdk/nexys_hw/hdmi_wrapper.bit"
+16:37:19 INFO  : Context for processor 'microblaze_0' is selected.
+16:37:19 INFO  : Hardware design information is loaded from 'C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.sdk/nexys_hw/system.hdf'.
+16:37:19 INFO  : Context for processor 'microblaze_0' is selected.
+16:37:20 INFO  : Processor reset is completed for 'microblaze_0'.
+16:37:20 INFO  : Context for processor 'microblaze_0' is selected.
+16:37:21 INFO  : The application 'C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.sdk/nexys_app/Debug/nexys_app.elf' is downloaded to processor 'microblaze_0'.
+16:37:21 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689899B" && level==0} -index 0
+fpga -file C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.sdk/nexys_hw/hdmi_wrapper.bit
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys Video 210276689899B"} -index 0
+loadhw C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.sdk/nexys_hw/system.hdf
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys Video 210276689899B"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys Video 210276689899B"} -index 0
+dow C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.sdk/nexys_app/Debug/nexys_app.elf
+----------------End of Script----------------
+
+16:37:21 INFO  : Memory regions updated for context MicroBlaze #0
+16:37:21 INFO  : Memory regions updated for context MicroBlaze #0
+16:37:21 INFO  : Context for processor 'microblaze_0' is selected.
+16:37:22 INFO  : 'con' command is executed.
+16:37:22 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys Video 210276689899B"} -index 0
+con
+----------------End of Script----------------
+
+16:37:22 INFO  : Launch script is exported to file 'C:\Users\aptay\Downloads\Nexys-Video-HDMI-master\Nexys-Video-HDMI-master\proj\TEMPLATE.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_on_local.tcl'
+16:39:09 INFO  : Disconnected from the channel tcfchan#1.
+16:39:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:39:11 INFO  : Jtag cable 'Digilent Nexys Video 210276689899B' is selected.
+16:39:11 INFO  : 'jtag frequency' command is executed.
+16:39:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689899B" && level==0} -index 0' command is executed.
+16:39:19 INFO  : FPGA configured successfully with bitstream "C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.sdk/nexys_hw/hdmi_wrapper.bit"
+16:39:19 INFO  : Context for processor 'microblaze_0' is selected.
+16:39:20 INFO  : Hardware design information is loaded from 'C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.sdk/nexys_hw/system.hdf'.
+16:39:20 INFO  : Context for processor 'microblaze_0' is selected.
+16:39:20 INFO  : Processor reset is completed for 'microblaze_0'.
+16:39:20 INFO  : Context for processor 'microblaze_0' is selected.
+16:39:23 INFO  : The application 'C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.sdk/nexys_app/Debug/nexys_app.elf' is downloaded to processor 'microblaze_0'.
+16:39:23 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689899B" && level==0} -index 0
+fpga -file C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.sdk/nexys_hw/hdmi_wrapper.bit
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys Video 210276689899B"} -index 0
+loadhw C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.sdk/nexys_hw/system.hdf
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys Video 210276689899B"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys Video 210276689899B"} -index 0
+dow C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.sdk/nexys_app/Debug/nexys_app.elf
+----------------End of Script----------------
+
+16:39:23 INFO  : Memory regions updated for context MicroBlaze #0
+16:39:23 INFO  : Memory regions updated for context MicroBlaze #0
+16:39:23 INFO  : Context for processor 'microblaze_0' is selected.
+16:39:23 INFO  : 'con' command is executed.
+16:39:23 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys Video 210276689899B"} -index 0
+con
+----------------End of Script----------------
+
+16:39:23 INFO  : Launch script is exported to file 'C:\Users\aptay\Downloads\Nexys-Video-HDMI-master\Nexys-Video-HDMI-master\proj\TEMPLATE.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_on_local.tcl'
+17:05:26 INFO  : Disconnected from the channel tcfchan#2.
+22:38:56 INFO  : Registering command handlers for SDK TCF services
+22:38:56 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\aptay\Downloads\Nexys-Video-HDMI-master\Nexys-Video-HDMI-master\proj\TEMPLATE.sdk\temp_xsdb_launch_script.tcl
+22:38:58 INFO  : XSCT server has started successfully.
+22:39:00 INFO  : Successfully done setting XSCT server connection channel  
+22:39:00 INFO  : Successfully done setting SDK workspace  
+15:01:39 INFO  : Registering command handlers for SDK TCF services
+15:01:39 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\aptay\Downloads\Nexys-Video-HDMI-master\Nexys-Video-HDMI-master\proj\TEMPLATE.sdk\temp_xsdb_launch_script.tcl
+15:01:41 INFO  : XSCT server has started successfully.
+15:01:44 INFO  : Successfully done setting XSCT server connection channel  
+15:01:44 INFO  : Successfully done setting SDK workspace  
+19:46:00 INFO  : Registering command handlers for SDK TCF services
+19:46:00 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\aptay\Downloads\Nexys-Video-HDMI-master\Nexys-Video-HDMI-master\proj\TEMPLATE.sdk\temp_xsdb_launch_script.tcl
+19:46:01 INFO  : XSCT server has started successfully.
+19:46:01 INFO  : Successfully done setting XSCT server connection channel  
+19:46:01 INFO  : Processing command line option -hwspec C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.sdk/hdmi_wrapper.hdf.
+19:46:01 INFO  : Successfully done setting SDK workspace  
+19:47:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:47:15 INFO  : Jtag cable 'Digilent Nexys Video 210276689899B' is selected.
+19:47:16 INFO  : 'jtag frequency' command is executed.
+19:47:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689899B" && level==0} -index 0' command is executed.
+19:47:23 INFO  : FPGA configured successfully with bitstream "C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.sdk/nexys_hw/hdmi_wrapper.bit"
+19:47:23 INFO  : Context for processor 'microblaze_0' is selected.
+19:47:24 INFO  : Hardware design information is loaded from 'C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.sdk/nexys_hw/system.hdf'.
+19:47:24 INFO  : Context for processor 'microblaze_0' is selected.
+19:47:24 INFO  : Processor reset is completed for 'microblaze_0'.
+19:47:25 INFO  : Context for processor 'microblaze_0' is selected.
+19:47:26 INFO  : The application 'C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.sdk/nexys_app/Debug/nexys_app.elf' is downloaded to processor 'microblaze_0'.
+19:47:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689899B" && level==0} -index 0
+fpga -file C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.sdk/nexys_hw/hdmi_wrapper.bit
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys Video 210276689899B"} -index 0
+loadhw C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.sdk/nexys_hw/system.hdf
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys Video 210276689899B"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys Video 210276689899B"} -index 0
+dow C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.sdk/nexys_app/Debug/nexys_app.elf
+----------------End of Script----------------
+
+19:47:27 INFO  : Memory regions updated for context MicroBlaze #0
+19:47:27 INFO  : Memory regions updated for context MicroBlaze #0
+19:47:27 INFO  : Context for processor 'microblaze_0' is selected.
+19:47:27 INFO  : 'con' command is executed.
+19:47:27 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys Video 210276689899B"} -index 0
+con
+----------------End of Script----------------
+
+19:47:27 INFO  : Launch script is exported to file 'C:\Users\aptay\Downloads\Nexys-Video-HDMI-master\Nexys-Video-HDMI-master\proj\TEMPLATE.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_on_local.tcl'
+20:43:54 INFO  : Disconnected from the channel tcfchan#1.
+20:43:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:43:55 INFO  : Jtag cable 'Digilent Nexys Video 210276689899B' is selected.
+20:43:56 INFO  : 'jtag frequency' command is executed.
+20:43:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689899B" && level==0} -index 0' command is executed.
+20:44:02 INFO  : FPGA configured successfully with bitstream "C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.sdk/nexys_hw/hdmi_wrapper.bit"
+20:44:02 INFO  : Context for processor 'microblaze_0' is selected.
+20:44:02 INFO  : Hardware design information is loaded from 'C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.sdk/nexys_hw/system.hdf'.
+20:44:02 INFO  : Context for processor 'microblaze_0' is selected.
+20:44:04 INFO  : Processor reset is completed for 'microblaze_0'.
+20:44:04 INFO  : Context for processor 'microblaze_0' is selected.
+20:44:06 INFO  : The application 'C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.sdk/nexys_app/Debug/nexys_app.elf' is downloaded to processor 'microblaze_0'.
+20:44:06 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689899B" && level==0} -index 0
+fpga -file C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.sdk/nexys_hw/hdmi_wrapper.bit
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys Video 210276689899B"} -index 0
+loadhw C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.sdk/nexys_hw/system.hdf
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys Video 210276689899B"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys Video 210276689899B"} -index 0
+dow C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.sdk/nexys_app/Debug/nexys_app.elf
+----------------End of Script----------------
+
+20:44:07 INFO  : Memory regions updated for context MicroBlaze #0
+20:44:07 INFO  : Memory regions updated for context MicroBlaze #0
+20:44:07 INFO  : Context for processor 'microblaze_0' is selected.
+20:44:07 INFO  : 'con' command is executed.
+20:44:07 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys Video 210276689899B"} -index 0
+con
+----------------End of Script----------------
+
+20:44:07 INFO  : Launch script is exported to file 'C:\Users\aptay\Downloads\Nexys-Video-HDMI-master\Nexys-Video-HDMI-master\proj\TEMPLATE.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_on_local.tcl'
+21:35:54 INFO  : Disconnected from the channel tcfchan#2.

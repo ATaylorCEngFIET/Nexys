@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sun Apr 09 12:59:42 2017
+# Process ID: 5996
+# Current directory: C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.runs/hdmi_microblaze_0_xlconcat_0_synth_1
+# Command line: vivado.exe -log hdmi_microblaze_0_xlconcat_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source hdmi_microblaze_0_xlconcat_0.tcl
+# Log file: C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.runs/hdmi_microblaze_0_xlconcat_0_synth_1/hdmi_microblaze_0_xlconcat_0.vds
+# Journal file: C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.runs/hdmi_microblaze_0_xlconcat_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'C:/Xilinx/Vivado/2016.4/scripts/init.tcl'
+209 Beta devices matching pattern found, 24 enabled.
+source hdmi_microblaze_0_xlconcat_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 349.641 ; gain = 139.336
+INFO: [Synth 8-638] synthesizing module 'hdmi_microblaze_0_xlconcat_0' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ip/hdmi_microblaze_0_xlconcat_0/synth/hdmi_microblaze_0_xlconcat_0.vhd:71]
+INFO: [Synth 8-638] synthesizing module 'xlconcat' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/2e37/xlconcat.vhd:100]
+INFO: [Synth 8-256] done synthesizing module 'xlconcat' (1#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ipshared/2e37/xlconcat.vhd:100]
+INFO: [Synth 8-256] done synthesizing module 'hdmi_microblaze_0_xlconcat_0' (2#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ip/hdmi_microblaze_0_xlconcat_0/synth/hdmi_microblaze_0_xlconcat_0.vhd:71]
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:23 . Memory (MB): peak = 388.035 ; gain = 177.730
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:24 . Memory (MB): peak = 388.035 ; gain = 177.730
+INFO: [Device 21-403] Loading part xc7a200tsbg484-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 624.074 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:25 ; elapsed = 00:00:38 . Memory (MB): peak = 624.074 ; gain = 413.770
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:25 ; elapsed = 00:00:38 . Memory (MB): peak = 624.074 ; gain = 413.770
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:38 . Memory (MB): peak = 624.074 ; gain = 413.770
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:25 ; elapsed = 00:00:38 . Memory (MB): peak = 624.074 ; gain = 413.770
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:38 . Memory (MB): peak = 624.074 ; gain = 413.770
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:38 ; elapsed = 00:00:51 . Memory (MB): peak = 651.531 ; gain = 441.227
+Finished Timing Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:51 . Memory (MB): peak = 651.531 ; gain = 441.227
+Finished Technology Mapping : Time (s): cpu = 00:00:38 ; elapsed = 00:00:51 . Memory (MB): peak = 661.234 ; gain = 450.930
+Finished IO Insertion : Time (s): cpu = 00:00:39 ; elapsed = 00:00:52 . Memory (MB): peak = 661.234 ; gain = 450.930
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:39 ; elapsed = 00:00:52 . Memory (MB): peak = 661.234 ; gain = 450.930
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:39 ; elapsed = 00:00:52 . Memory (MB): peak = 661.234 ; gain = 450.930
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:39 ; elapsed = 00:00:52 . Memory (MB): peak = 661.234 ; gain = 450.930
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:39 ; elapsed = 00:00:52 . Memory (MB): peak = 661.234 ; gain = 450.930
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:39 ; elapsed = 00:00:52 . Memory (MB): peak = 661.234 ; gain = 450.930
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:39 ; elapsed = 00:00:52 . Memory (MB): peak = 661.234 ; gain = 450.930
+synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 681.723 ; gain = 405.156

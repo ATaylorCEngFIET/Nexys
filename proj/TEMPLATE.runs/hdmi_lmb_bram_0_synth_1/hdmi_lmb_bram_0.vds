@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sun Apr 09 12:59:43 2017
+# Process ID: 18092
+# Current directory: C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.runs/hdmi_lmb_bram_0_synth_1
+# Command line: vivado.exe -log hdmi_lmb_bram_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source hdmi_lmb_bram_0.tcl
+# Log file: C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.runs/hdmi_lmb_bram_0_synth_1/hdmi_lmb_bram_0.vds
+# Journal file: C:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/proj/TEMPLATE.runs/hdmi_lmb_bram_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'C:/Xilinx/Vivado/2016.4/scripts/init.tcl'
+209 Beta devices matching pattern found, 24 enabled.
+source hdmi_lmb_bram_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:23 . Memory (MB): peak = 349.602 ; gain = 139.879
+INFO: [Synth 8-638] synthesizing module 'hdmi_lmb_bram_0' [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ip/hdmi_lmb_bram_0/synth/hdmi_lmb_bram_0.vhd:78]
+INFO: [Synth 8-256] done synthesizing module 'hdmi_lmb_bram_0' (11#1) [c:/Users/aptay/Downloads/Nexys-Video-HDMI-master/Nexys-Video-HDMI-master/src/bd/hdmi/ip/hdmi_lmb_bram_0/synth/hdmi_lmb_bram_0.vhd:78]
+Finished RTL Elaboration : Time (s): cpu = 00:01:15 ; elapsed = 00:01:28 . Memory (MB): peak = 548.957 ; gain = 339.234
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:15 ; elapsed = 00:01:29 . Memory (MB): peak = 548.957 ; gain = 339.234
+INFO: [Device 21-403] Loading part xc7a200tsbg484-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.053 . Memory (MB): peak = 696.434 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:01:28 ; elapsed = 00:01:43 . Memory (MB): peak = 696.434 ; gain = 486.711
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:28 ; elapsed = 00:01:43 . Memory (MB): peak = 696.434 ; gain = 486.711
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:28 ; elapsed = 00:01:43 . Memory (MB): peak = 696.434 ; gain = 486.711
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:29 ; elapsed = 00:01:43 . Memory (MB): peak = 696.434 ; gain = 486.711
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:29 ; elapsed = 00:01:44 . Memory (MB): peak = 696.434 ; gain = 486.711
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:42 ; elapsed = 00:01:57 . Memory (MB): peak = 696.434 ; gain = 486.711
+Finished Timing Optimization : Time (s): cpu = 00:01:42 ; elapsed = 00:01:57 . Memory (MB): peak = 696.434 ; gain = 486.711
+Finished Technology Mapping : Time (s): cpu = 00:01:42 ; elapsed = 00:01:57 . Memory (MB): peak = 696.434 ; gain = 486.711
+Finished IO Insertion : Time (s): cpu = 00:01:43 ; elapsed = 00:01:57 . Memory (MB): peak = 696.434 ; gain = 486.711
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:43 ; elapsed = 00:01:57 . Memory (MB): peak = 696.434 ; gain = 486.711
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:43 ; elapsed = 00:01:57 . Memory (MB): peak = 696.434 ; gain = 486.711
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:43 ; elapsed = 00:01:57 . Memory (MB): peak = 696.434 ; gain = 486.711
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:43 ; elapsed = 00:01:57 . Memory (MB): peak = 696.434 ; gain = 486.711
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:43 ; elapsed = 00:01:57 . Memory (MB): peak = 696.434 ; gain = 486.711
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |RAMB36E1 |     8|
++------+---------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:43 ; elapsed = 00:01:57 . Memory (MB): peak = 696.434 ; gain = 486.711
+synth_design: Time (s): cpu = 00:01:39 ; elapsed = 00:01:44 . Memory (MB): peak = 718.281 ; gain = 442.961
